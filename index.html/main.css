@@ -1,0 +1,9 @@
+#bottom:hover {
+    color: blue;
+}
+#top:visited {
+    color: red;
+}
+#middle:active {
+    color: green;
+}
