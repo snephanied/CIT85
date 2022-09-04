@@ -1,9 +1,22 @@
-#bottom:hover {
-    color: blue;
-}
-#top:visited {
+li:first-child {
     color: red;
 }
-#middle:active {
+li:last-child {
     color: green;
+}
+p:nth-child(odd) {
+    color: red;
+}
+p:nth-child(even) {
+    color: green;
+}
+li:nth-child(4) {
+    color: blue;
+}
+h1:only-child {
+    color: purple;
+    background-color: pink;
+}
+p:nth-child(3n+2) {
+    color: orange;
 }
