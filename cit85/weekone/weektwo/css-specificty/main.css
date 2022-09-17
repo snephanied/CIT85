@@ -1,0 +1,36 @@
+div p h1 {
+    width: auto;
+    height: auto;
+    border: 10px;
+}
+div ~ h1 {
+    color: red;
+}
+#paragraphs {
+    font-size: 30px;
+    color: orange;
+}
+.paragraph {
+    color: yellowgreen;
+}
+div > p {
+    color: blue;
+}
+div + p {
+    font-family: cursive;
+    color: green;
+}
+h1 {
+    color: purple;
+}
+p {
+    color: indigo;
+}
+p::first-letter {
+    color: aqua;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p::first-line {
+    color: orange
+}
