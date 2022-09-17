@@ -4,3 +4,13 @@ li {
 #firstList {
     color: blue;
 }
+p::first-letter {
+    font-family: cursive;
+    color: red;
+    font-size: 40px;
+}
+p::first-line {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    font-size: 36;
+}
