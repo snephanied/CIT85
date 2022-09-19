@@ -1,0 +1,10 @@
+.lemon {
+    width: 100px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid yellow;
+    background-color: rgb(250, 227, 19);
+    margin: 25px;
+    display: block;
+}
+
