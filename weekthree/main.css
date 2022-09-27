@@ -1,0 +1,8 @@
+.inline {
+    display: inline;
+    color: red;
+}
+.block {
+    display: block;
+    color: blue;
+}
